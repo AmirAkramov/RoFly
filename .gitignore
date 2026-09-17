@@ -1,0 +1,59 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local runtime / generated files
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+*.rej
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large generated data / local artifacts
+outputs/
+archive/
+*.zip
+*.tar
+*.gz
+*.npz
+*.npy
+*.png
+*.jpg
+*.jpeg
+
+# Local secrets / env files
+.env
+.env.*
+!.env.example
+
+# Editor folders
+.vscode/
+.idea/
+
+# Ignore local install/build folders if you do not want to publish them
+build/
+dist/
+site/
+node_modules/

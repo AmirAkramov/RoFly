@@ -1,0 +1,141 @@
+{
+  "energy": 0.8,
+  "curiosity": 0.5960000000000001,
+  "attention": 0.5,
+  "boredom": 0.047999999999999945,
+  "social_interest": 0.3285,
+  "total_experiences": 10,
+  "total_sessions": 4,
+  "memories": [
+    {
+      "time": 1789477794.6596935,
+      "observation": {
+        "type": "startup_greeting",
+        "message": "Hi everyone, I'm awake."
+      },
+      "action": "greet_server",
+      "result": "sent startup greeting",
+      "reward": 0.1
+    },
+    {
+      "time": 1789477798.7633414,
+      "observation": {
+        "type": "chat",
+        "speaker": "5,597] Files",
+        "message": "se abt totrap that fly-",
+        "response": "Hmm?",
+        "intent": "UNKNOWN"
+      },
+      "action": "respond_to_chat",
+      "result": "answered player",
+      "reward": 0.2
+    },
+    {
+      "time": 1789477839.991014,
+      "observation": {
+        "type": "chat",
+        "speaker": "esse 5,597] Files",
+        "message": "ies alot tito tre thet fly",
+        "response": "I'm listening.",
+        "intent": "UNKNOWN"
+      },
+      "action": "respond_to_chat",
+      "result": "answered player",
+      "reward": 0.2
+    },
+    {
+      "time": 1789477854.8648026,
+      "observation": {
+        "type": "chat",
+        "speaker": "S557 Files",
+        "message": "fly ties ns ie c : :",
+        "response": "I'm listening.",
+        "intent": "UNKNOWN"
+      },
+      "action": "respond_to_chat",
+      "result": "answered player",
+      "reward": 0.2
+    },
+    {
+      "time": 1789477907.0910707,
+      "observation": {
+        "type": "chat",
+        "speaker": "5,597] Files",
+        "message": "fly",
+        "response": "I'm listening.",
+        "intent": "UNKNOWN"
+      },
+      "action": "respond_to_chat",
+      "result": "answered player",
+      "reward": 0.2
+    },
+    {
+      "time": 1789477924.0469325,
+      "observation": {
+        "type": "chat",
+        "speaker": "EF Files",
+        "message": "Fly Seiten ae =",
+        "response": "What?",
+        "intent": "UNKNOWN"
+      },
+      "action": "respond_to_chat",
+      "result": "answered player",
+      "reward": 0.2
+    },
+    {
+      "time": 1789477952.978114,
+      "observation": {
+        "type": "chat",
+        "speaker": "5,597] Files",
+        "message": "fly",
+        "response": "I'm listening.",
+        "intent": "UNKNOWN"
+      },
+      "action": "respond_to_chat",
+      "result": "answered player",
+      "reward": 0.2
+    },
+    {
+      "time": 1789477983.4871287,
+      "observation": {
+        "type": "chat",
+        "speaker": "$5,597] Files",
+        "message": "Fly",
+        "response": "Hmm?",
+        "intent": "UNKNOWN"
+      },
+      "action": "respond_to_chat",
+      "result": "answered player",
+      "reward": 0.2
+    },
+    {
+      "time": 1789477989.8139522,
+      "observation": {
+        "type": "chat",
+        "speaker": "$5,597] Files",
+        "message": "fly any",
+        "response": "I'm listening.",
+        "intent": "UNKNOWN"
+      },
+      "action": "respond_to_chat",
+      "result": "answered player",
+      "reward": 0.2
+    },
+    {
+      "time": 1789478000.371249,
+      "observation": {
+        "type": "chat",
+        "speaker": "F",
+        "message": "5/59/7) Files) Fly, wee",
+        "response": "What?",
+        "intent": "UNKNOWN"
+      },
+      "action": "respond_to_chat",
+      "result": "answered player",
+      "reward": 0.2
+    }
+  ],
+  "world": {},
+  "follow_target": null,
+  "follow_started": 0.0
+}

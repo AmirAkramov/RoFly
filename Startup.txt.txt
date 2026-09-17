@@ -1,0 +1,35 @@
+RoFLy 3.1 — Windows launch instructions
+
+Roblox is NOT included with this project. Download and install the official
+Roblox application manually before starting RoFLy:
+
+https://www.roblox.com/download
+
+1. Unzip the RoFLy folder if necessary.
+
+2. Open Roblox and enter the game where you want to run RoFLy.
+   Keep the Roblox client open.
+
+3. Right-click inside the RoFLy project folder and choose
+   "Open in Terminal".
+
+4. Start the neural host:
+
+   python -u -m doom.server --model experimental-v6 --port 8766
+
+   Leave this terminal running.
+
+5. Open a second terminal in the same RoFLy folder.
+
+6. Start the RoFLy 3.1 Roblox launcher:
+
+   python run_roblox_social.py
+
+7. Focus the Roblox client when the launcher begins.
+
+The project includes the pretrained roblox_decoder.npz file, so users do not
+need to collect the original training samples before running the project.
+
+Roblox is an external application and is not distributed, installed, modified,
+or included with RoFLy. Users must download it separately from the official
+Roblox website and follow Roblox's applicable rules and terms.

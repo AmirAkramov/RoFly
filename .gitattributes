@@ -1,0 +1,12 @@
+*.csv -text -whitespace
+*.png binary
+*.jpg binary
+*.gif binary
+*.glb binary
+*.spz binary
+*.wad binary
+*.zip binary
+# Preserve verbatim upstream license formatting.
+licenses/** -whitespace
+*.arrow filter=lfs diff=lfs merge=lfs -text
+*.feather filter=lfs diff=lfs merge=lfs -text

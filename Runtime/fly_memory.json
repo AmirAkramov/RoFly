@@ -1,0 +1,146 @@
+[
+  {
+    "time": 1789474255.8954628,
+    "speaker": "multi_Bonnie",
+    "message": "DHEY Bartomaxus",
+    "intent": "UNKNOWN",
+    "response": "What?",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789474360.5998917,
+    "speaker": "multi_Bonnie",
+    "message": "WH",
+    "intent": "UNKNOWN",
+    "response": "Hmm?",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789477538.3818202,
+    "speaker": "“e- rn ie",
+    "message": "iF ou WweIiE to itll wedidn lit lust Sey \" anel ask a",
+    "intent": "UNKNOWN",
+    "response": "Yeah?",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789477798.7597854,
+    "speaker": "5,597] Files",
+    "message": "se abt totrap that -",
+    "intent": "UNKNOWN",
+    "response": "Hmm?",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789477839.9894943,
+    "speaker": "esse 5,597] Files",
+    "message": "ies alot tito tre thet",
+    "intent": "UNKNOWN",
+    "response": "I'm listening.",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789477854.8617404,
+    "speaker": "S557 Files",
+    "message": "ties ns ie c : :",
+    "intent": "UNKNOWN",
+    "response": "I'm listening.",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789477907.088524,
+    "speaker": "5,597] Files",
+    "message": "fly",
+    "intent": "UNKNOWN",
+    "response": "I'm listening.",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789477908.5494218,
+    "speaker": "5,597] Files",
+    "message": "File:",
+    "intent": "UNKNOWN",
+    "response": "What?",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789477924.045394,
+    "speaker": "EF Files",
+    "message": "Seiten ae =",
+    "intent": "UNKNOWN",
+    "response": "What?",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789477952.976074,
+    "speaker": "5,597] Files",
+    "message": "fly",
+    "intent": "UNKNOWN",
+    "response": "I'm listening.",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789477983.4844887,
+    "speaker": "$5,597] Files",
+    "message": "Fly",
+    "intent": "UNKNOWN",
+    "response": "Hmm?",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789477989.812438,
+    "speaker": "$5,597] Files",
+    "message": "any",
+    "intent": "UNKNOWN",
+    "response": "I'm listening.",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789478000.367208,
+    "speaker": "F",
+    "message": "5/59/7) Files) , wee",
+    "intent": "UNKNOWN",
+    "response": "What?",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789478044.8865755,
+    "speaker": "#5,597] Files",
+    "message": "hey , get in ur jar",
+    "intent": "GREETING",
+    "response": "Hey.",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789478070.7252152,
+    "speaker": "Fs Files",
+    "message": "hey , get in.upjarg .",
+    "intent": "GREETING",
+    "response": "Hi.",
+    "goal": "IDLE",
+    "target": null
+  },
+  {
+    "time": 1789478072.1200426,
+    "speaker": "#5,597] Files",
+    "message": "hey , get in ur jar",
+    "intent": "GREETING",
+    "response": "Hello.",
+    "goal": "IDLE",
+    "target": null
+  }
+]
