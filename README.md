@@ -99,4 +99,4 @@ This verifies that `edges.feather` and `edges.arrow` downloaded correctly.
 
 ## License
 
-The orchestration architecture, input wrappers, and integration modules are licensed under the **MIT License**. Underlying network datasets and third-party components retain their parent licenses — including **Creative Commons Attribution 4.0 International** for the MaleCNS v1.0 records. See `LICENSE` and `THIRD_PARTY_NOTICES.md` for details.
+The orchestration architecture, input wrappers, and integration modules are licensed under the **MIT License**. Underlying network datasets and third-party components retain their parent licenses — including **Creative Commons Attribution 4.0 International** for the MaleCNS v1.0 records. See `LICENSE` and `THIRD_PARTY_NOTICES.md` for details. It is also worth mentioning that the main ase of the RoFly project is Doomfly made by Alex Wormuth.
