@@ -1,5 +1,7 @@
 # RoFLy 3.1
 
+![Альтернативный текст](Rofly.png)
+
 **RoFLy 3.1** is an advanced, bio-inspired experimental autonomous agent designed for the Roblox ecosystem. Built upon highly optimized, DoomFly-derived neural kernels, RoFLy implements a full-graph computational brain simulation utilizing structural data from the biologically reconstructed **MaleCNS v1.0** Drosophila connectome. 
 
 By bridging real-time multi-modal sensory pipelines with a biomimetic neural controller, the agent translates complex environment states directly into human-like behavioral vectors and continuous motor outputs.
