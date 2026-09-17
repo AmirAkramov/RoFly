@@ -1,5 +1,7 @@
 # RoFLy 3.1
+
 <p align="center">  <img src="Rofly.png" alt="RoFLy 3.1 Banner" width="750"></p>
+
 An experimental autonomous agent for the Roblox platform, powered by a full-graph simulation of the **MaleCNS v1.0** *Drosophila* connectome. RoFLy ingests live screen data, processes it through a biologically-structured neural graph, and emits continuous behavioral outputs — no hardcoded macros or heuristic rules.
 
 ---
@@ -12,7 +14,7 @@ RoFLy runs a continuous four-stage loop:
 
 **2. Connectome Controller** — Maps sensory inputs onto entry-points in the MaleCNS v1.0 biological graph. Signals propagate across millions of synaptic connections without aggressive circuit clipping.
 
-**3. Latent Decoder** (`roblox_decoder.npz`) — Intercepts descending neural firing patterns at the network boundary and translates them into precise keystroke durations and navigation inputs.
+**3. Latent Decoder** (`roblox_decoder.npz`) — Intercepts descending neural firing patterns at the network boundary and translates them into keystroke durations and navigation inputs. The included weights were trained on **800 behavioral samples**, giving the connectome a learned basis for movement rather than hardcoded rules. At this sample count, movement accuracy sits at roughly **35–50%**. The sample count is configurable — more samples improve accuracy, fewer reduce training time.
 
 **4. Social State & Persistence** — Neural baselines and memory thresholds persist across character resets, allowing the agent to maintain contextual awareness and respond organically in game chat.
 
@@ -65,7 +67,7 @@ This verifies that `edges.feather` and `edges.arrow` downloaded correctly.
 
 4. When prompted, click on the Roblox window to transfer input focus to the game.
 
-> **Note:** `roblox_decoder.npz` ships with pre-trained weights. No behavioral recapture or retraining is needed for standard use.
+> **Note:** `roblox_decoder.npz` ships with weights pre-trained on 800 samples (~35–50% movement accuracy). This is sufficient to get started. To improve accuracy, you can retrain the decoder with a higher sample count; to speed up training, reduce it.
 
 ---
 
