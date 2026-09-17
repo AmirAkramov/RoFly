@@ -1,5 +1,5 @@
 # RoFLy 3.1
-
+<p align="center">  <img src="Rofly.png" alt="RoFLy 3.1 Banner" width="750"></p>
 An experimental autonomous agent for the Roblox platform, powered by a full-graph simulation of the **MaleCNS v1.0** *Drosophila* connectome. RoFLy ingests live screen data, processes it through a biologically-structured neural graph, and emits continuous behavioral outputs — no hardcoded macros or heuristic rules.
 
 ---
