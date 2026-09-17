@@ -36,21 +36,6 @@ RoFLy is an independent research pipeline that interacts with the target environ
 * You must launch your chosen Roblox experience manually and maintain the client window in an active, unminimized state on your display. 
 * RoFLy relies strictly on standard operating system hooks (Window Screen Capture, OCR Intercepts, and Simulated Key Events) to achieve closed-loop control without binary injection or memory modification.
 
----
-
-## Repository Map
-
-| Path | Architectural Scope |
-| :--- | :--- |
-| `connectome_data/` | Core graph-storage directory for structural neural arrays. |
-| `connectome_data/malecns_v1/` | Target location for LFS-tracked synapse charts (`edges.feather`, `normalized/edges.arrow`). |
-| `doom/` | Underlying highly optimized C++/Python neural simulation engine and local serving infrastructure. |
-| `run_roblox_social.py` | Primary agent runtime orchestration script (Handles Vision, OCR parsing, and Key injection). |
-| `roblox_decoder.npz` | Pinned weights for the pretrained continuous movement and behavioral latency decoder. |
-| `tests/` | Granular unit tests, numerical validation, and mathematical sanity checks for the neural pipeline. |
-
----
-
 ## Setup & Data Integrity Verification
 
 Executing full-graph biological networks requires substantial physical memory resources and high-performance instruction processing. RoFLy cannot be executed within lightweight edge runtimes or client browsers.
